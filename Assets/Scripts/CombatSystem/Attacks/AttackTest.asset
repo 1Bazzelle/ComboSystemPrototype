@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1253c22b3fb8f489a25614f48cde62, type: 3}
+  m_Name: AttackTest
+  m_EditorClassIdentifier: 
+  attackNodes:
+  - type: 3
+    sprite: {fileID: 0}
+    waitTime: 0
+    chargeTime: 0
+    shakeWhileCharge: 0
+    shakeIntensity: 0
+    moveInterpolation: 0
+    moveInterpolationAmplifier: 0
+    moveOffset: {x: 0, y: 0}
+    enemyMoveInterpolation: 0
+    enemyMoveInterpolationAmplifier: 0
+    enemyMoveHitboxes: []
+    enemyMoveOffset: {x: 0, y: 0}
+    moveTime: 0
+    hitboxes:
+    - offset: {x: 0.5, y: 0}
+      boxSize: {x: 0.25, y: 0.5}
+    freezeFrameTime: 0.05
+    freezeFrameSprite: {fileID: 21300000, guid: 219e650cf4242fe48bf399f813222800, type: 3}
+    damage: 15
+    element: 0
+    enemyHit: 0
+    strikeSprite: {fileID: 21300000, guid: de926b8771c08c24e8191f57ea624c3f, type: 3}
+    strikeSpritePos: {x: 0.5, y: 0}
+    strikeSpriteLifetime: 0.1
+    forceDir: {x: 0, y: 0}
+    forceIntensity: 0
+    followUpAttacks: []
+  - type: 4
+    sprite: {fileID: 0}
+    waitTime: 0.2
+    chargeTime: 0
+    shakeWhileCharge: 0
+    shakeIntensity: 0
+    moveInterpolation: 0
+    moveInterpolationAmplifier: 0
+    moveOffset: {x: 0, y: 0}
+    enemyMoveInterpolation: 0
+    enemyMoveInterpolationAmplifier: 0
+    enemyMoveHitboxes: []
+    enemyMoveOffset: {x: 0, y: 0}
+    moveTime: 0
+    hitboxes: []
+    freezeFrameTime: 0
+    freezeFrameSprite: {fileID: 0}
+    damage: 0
+    element: 0
+    enemyHit: 0
+    strikeSprite: {fileID: 0}
+    strikeSpritePos: {x: 0, y: 0}
+    strikeSpriteLifetime: 0
+    forceDir: {x: 0.5, y: 0.2}
+    forceIntensity: 1
+    followUpAttacks: []
+  - type: 1
+    sprite: {fileID: 0}
+    waitTime: 0.2
+    chargeTime: 0
+    shakeWhileCharge: 0
+    shakeIntensity: 0
+    moveInterpolation: 0
+    moveInterpolationAmplifier: 0
+    moveOffset: {x: 0, y: 0}
+    enemyMoveInterpolation: 0
+    enemyMoveInterpolationAmplifier: 0
+    enemyMoveHitboxes: []
+    enemyMoveOffset: {x: 0, y: 0}
+    moveTime: 0
+    hitboxes: []
+    freezeFrameTime: 0
+    freezeFrameSprite: {fileID: 0}
+    damage: 0
+    element: 0
+    enemyHit: 0
+    strikeSprite: {fileID: 0}
+    strikeSpritePos: {x: 0, y: 0}
+    strikeSpriteLifetime: 0
+    forceDir: {x: 0, y: 0}
+    forceIntensity: 0
+    followUpAttacks: []
+  - type: 7
+    sprite: {fileID: 0}
+    waitTime: 0.2
+    chargeTime: 0
+    shakeWhileCharge: 0
+    shakeIntensity: 0
+    moveInterpolation: 0
+    moveInterpolationAmplifier: 0
+    moveOffset: {x: 0, y: 0}
+    enemyMoveInterpolation: 0
+    enemyMoveInterpolationAmplifier: 0
+    enemyMoveHitboxes: []
+    enemyMoveOffset: {x: 0, y: 0}
+    moveTime: 0
+    hitboxes: []
+    freezeFrameTime: 0
+    freezeFrameSprite: {fileID: 0}
+    damage: 0
+    element: 0
+    enemyHit: 0
+    strikeSprite: {fileID: 0}
+    strikeSpritePos: {x: 0, y: 0}
+    strikeSpriteLifetime: 0
+    forceDir: {x: 0, y: 0}
+    forceIntensity: 0
+    followUpAttacks: []
